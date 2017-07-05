@@ -3,7 +3,7 @@
 async torndb with [TorMySQL](https://github.com/snower/TorMySQL)
 
 
-# example: app.py
+# example: myapptest.py
 
 ```python
 
