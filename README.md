@@ -5,6 +5,8 @@ async torndb with [TorMySQL](https://github.com/snower/TorMySQL)
 
 # example: app.py
 
+```python
+
 import tornado.ioloop
 import tornado.web
 from tornado import gen
@@ -41,3 +43,4 @@ if __name__ == "__main__":
     app = make_app()
     app.listen(8888)
     tornado.ioloop.IOLoop.current().start()
+```
