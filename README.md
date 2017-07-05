@@ -2,6 +2,10 @@
 
 async [torndb](https://github.com/bdarnell/torndb) with [TorMySQL](https://github.com/snower/TorMySQL) for tornado
 
+not tested!!!
+## !!!use as your own risk!!!
+## !!!use as your own risk!!!
+## !!!use as your own risk!!!
 
 # example: myapptest.py
 
