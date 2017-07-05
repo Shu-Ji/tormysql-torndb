@@ -2,12 +2,23 @@
 
 async [torndb](https://github.com/bdarnell/torndb) with [TorMySQL](https://github.com/snower/TorMySQL) for tornado
 
+Every method is same as torndb, and just add `@gen.coroutine` to your `get`、`post` method，and use yield with method from torndb：
+
+```python
+class MainHandler(tornado.web.RequestHandler):
+    @gen.coroutine
+    def get(self):
+        sql = """select host, user from user where user = %s"""
+        data = yield db.query(sql, 'root')
+        self.write({'data': data})
+```
+
 not tested!!!
 ## !!!use as your own risk!!!
 ## !!!use as your own risk!!!
 ## !!!use as your own risk!!!
 
-# example: myapptest.py
+# full example: myapptest.py
 
 ```python
 
