@@ -1,6 +1,6 @@
 # tormysql-torndb
 
-async torndb with [TorMySQL](https://github.com/snower/TorMySQL)
+async [torndb](https://github.com/bdarnell/torndb) with [TorMySQL](https://github.com/snower/TorMySQL) for tornado
 
 
 # example: myapptest.py
