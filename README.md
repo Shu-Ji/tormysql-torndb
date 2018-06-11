@@ -13,11 +13,6 @@ class MainHandler(tornado.web.RequestHandler):
         self.write({'data': data})
 ```
 
-not tested!!!
-## !!!use as your own risk!!!
-## !!!use as your own risk!!!
-## !!!use as your own risk!!!
-
 # full example: myapptest.py
 
 ```python
