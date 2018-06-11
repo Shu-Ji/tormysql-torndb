@@ -2,7 +2,7 @@
 
 async [torndb](https://github.com/bdarnell/torndb) with [TorMySQL](https://github.com/snower/TorMySQL) for tornado
 
-Every method is same as torndb, and just add `@gen.coroutine` to your `get`、`post` method，and use `yield` before methods from torndb(such as `query`、`insert` etc.)：
+Every method is same as torndb, and just add `@gen.coroutine` to your `get`、`post` method，and use `yield` before methods from torndb(such as `query`、`execute` etc.)：
 
 ```python
 class MainHandler(tornado.web.RequestHandler):
